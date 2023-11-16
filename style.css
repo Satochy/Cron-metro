@@ -1,0 +1,91 @@
+body {
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #efefef;
+}
+
+.timer-text {
+    font-size: 3.5rem;
+}
+
+p { 
+    font-size: 1.5rem;
+    margin-top: -40px;
+}
+
+#atalhos-timer button {
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    border-width: 1px;
+    margin: 1px;
+}
+
+#timer {
+    font-size: 9rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+#startBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    margin-right: 20px;
+}
+  
+#stopBtn {
+    background-color: #FF4500; 
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    margin-left: 20px;
+}
+
+#stopBtn {
+    background-color: #FF4500; 
+    margin-left: 20px;
+}
+
+#set-timer-text {
+    margin-top: 30px;
+    margin-bottom: 10px; 
+}
+
+#time-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+#time-inputs label, #time-inputs input {
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 11px;
+    text-align: center;
+    font-size: 1.3rem; 
+    border-width: 1px; 
+    border-radius: 8px;
+}
+
+#setTimerBtn {
+    background-color: rgb(14, 145, 197); 
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    margin-top: 8px; 
+}
